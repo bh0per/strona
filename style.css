@@ -1,0 +1,45 @@
+/* Ustawienia koloru tła strony */
+body {
+  background-color: #f2f2f2;
+}
+
+/* Ustawienia stylu nagłówka */
+h1 {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+/* Ustawienia dla wszystkich odnośników */
+a {
+  text-decoration: none;
+  color: #0080ff;
+}
+
+/* Ustawienia dla odnośników po najechaniu kursorem */
+a:hover {
+  color: #ff0000;
+}
+
+/* Ustawienia stylu przycisku */
+.button {
+  background-color: #0080ff;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+/* Ustawienia dla paragrafów z klasą "highlight" */
+p.highlight {
+  font-weight: bold;
+  color: #ff0000;
+}
+
+/* Ustawienia dla obrazków z klasą "thumbnail" */
+img.thumbnail {
+  width: 200px;
+  height: auto;
+  border: 1px solid #333;
+  border-radius: 5px;
+}
